@@ -1,7 +1,23 @@
-# aa10
+# 🌐 Arduino IoT: 데이터 연동 및 시각화
 
-아두이노응용
+> 이 폴더는 아두이노에서 수집한 센서 데이터를 외부 서버와 데이터베이스에 전송하고, 웹에서 시각화하는 IoT 프로젝트 실습을 다룹니다.
 
-C++, node.js, mongoDB
+단순한 하드웨어 제어를 넘어, 아두이노를 네트워크에 연결하여 실용적인 데이터 기반 시스템을 구축하는 과정을 학습합니다.
 
-with Arduino uno r3, Arduino nano33 ble
+## ⛓️ 핵심 워크플로우
+
+**Arduino (센서)** ➡️ **Serial/WiFi** ➡️ **Node.js/Python (서버)** ➡️ **MongoDB (데이터베이스)** ➡️ **Plotly.js (웹 시각화)**
+
+## 🚀 주요 학습 내용
+
+* 아두이노와 PC(서버) 간의 시리얼 통신 구현
+* Node.js 또는 Python으로 시리얼 데이터를 받아 처리하는 서버 구축
+* 수신된 데이터를 MongoDB에 실시간으로 저장(Logging)
+* 웹 페이지에서 Plotly.js를 이용해 DB의 데이터를 동적으로 시각화
+
+## 🛠️ 주요 사용 기술 스택
+
+* **데이터 수집:** `Arduino`
+* **서버/통신:** `Node.js`, `Python`
+* **데이터베이스:** `MongoDB`
+* **시각화/분석:** `Plotly.js`, `Google Colab`
